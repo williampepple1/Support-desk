@@ -13,6 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 app.use('/api/users', require('./Routes/userRoutes'))
+app.use('/api/tickets', require('./Routes/ticketRoutes'))
 
 app.get('/', (req, res) => {
     res.status(201).json({message: "Hello World"})
