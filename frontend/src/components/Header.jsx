@@ -10,7 +10,6 @@ function Header() {
       </div>
       <ul>
           <li>
-  
               <FaSignOutAlt /> Logout
           </li>
           <>
